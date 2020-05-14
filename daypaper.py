@@ -13,4 +13,5 @@ obj = dict(msgtype="text", text=dict(content='实战日报: ' + time.strftime('%
                                              '\n辛苦各位同学啦！'))
 requests.post(url,
     headers={'Content-Type': 'application/json'},
-    data=json.dumps(obj))
+    data=json.dumps(obj)
+)
