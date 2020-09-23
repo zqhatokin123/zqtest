@@ -28,4 +28,4 @@ jobs:
         pip install -r requirements.txt
     - name: run task
       run: |
-        python Bliblisent.py
+        python
